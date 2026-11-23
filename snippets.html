@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snippets & Códigos Haxe - FNF Modder Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="movies/logo-banner.png" alt="Codename Engine Logo" class="nav-logo-img">
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="https://codename-engine.com/api/" target="_blank">API ↗</a>
+                <a href="tools.html">Tools</a>
+                <a href="https://codename-engine.com/wiki/" target="_blank">Wiki ↗</a>
+                <img id="bola" src="movies/luna.png" onclick="changeImage()" style="cursor:pointer;" width="30"
+                    height="30">
+            </nav>
+        </div>
+    </header>
+
+    <div class="tools-header">
+        <h1>Snippets de Haxe</h1>
+        <p>Códigos fuente optimizados para scripts de Codename Engine.</p>
+    </div>
+
+    <main class="tools-container">
+        <div class="grid-cards" style="gap: 30px;">
+
+            <!-- Drenaje de Vida -->
+            <div class="card" style="padding: 20px; position: relative;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="card-tag haxe">Gameplay / Characters</div>
+                    <button class="btn-download" data-download="downloads/Change_Character.zip"
+                        data-filename="Change_Character.zip">
+                        Descargar Archivo
+                    </button>
+                </div>
+                <h3>Sev's Character Change Event (Subido por: xx_skullbun_xx)</h3>
+                <p>Un evento que te permite cambiar de personaje o crear personajes totalmente
+                    nuevos.</p>
+                <p>Cómo descargar el evento:</p>
+                <li>Descarga el archivo ZIP.</li>
+                <li>Una vez finalizada la descarga, descomprímelo en tu carpeta de mods.</li>
+
+                <p style="color: #b3a8c4;">No requiere configuración adicional.</p>
+                <video class="video-player" controls preload="metadata">
+                    <source src="movies/videos/chage.mp4" type="video/mp4">
+                    Tu navegador no puede reproducir este video.
+                </video>
+
+            </div>
+        </div>
+
+        <!-- Sección de comentarios -->
+        <section class="comments-section">
+
+            <div class="comments-header">
+                <h2>Comentarios</h2>
+                <p>Opiniones y aportes de la comunidad.</p>
+            </div>
+
+            <div class="comments-list">
+
+                <div class="comment-card">
+                    <div class="comment-info">
+                        <h3>xx_skullbun_xx</h3>
+                        <span>Autor del código</span>
+                    </div>
+                    <p>Espero que este código les sea de utilidad. ¡Disfrútenlo!</p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-info">
+                        <h3>Usuario123</h3>
+                        <span>Visitante</span>
+                    </div>
+                    <p>Muy buen aporte, me sirvió bastante para mi mod.</p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-info">
+                        <h3>FNF_Fan</h3>
+                        <span>Visitante</span>
+                    </div>
+                    <p>¿Podrían subir más eventos de este tipo?</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="coments.js"></script>
+
+    <script src="script.js"></script>
+
+    <script src="bola.js"></script>
+
+</body>
+
+</html>

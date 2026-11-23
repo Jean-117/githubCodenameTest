@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snippets & Códigos Haxe - FNF Modder Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="movies/logo-banner.png" alt="Codename Engine Logo" class="nav-logo-img">
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="https://codename-engine.com/api/" target="_blank">API ↗</a>
+                <a href="tools.html">Tools</a>
+                <a href="https://codename-engine.com/wiki/" target="_blank">Wiki ↗</a>
+                <img id="bola" src="movies/luna.png" onclick="changeImage()" style="cursor:pointer;" width="30"
+                    height="30">
+            </nav>
+        </div>
+    </header>
+
+    <div class="tools-header">
+        <h1>Snippets de Haxe</h1>
+        <p>Códigos fuente optimizados para scripts de Codename Engine.</p>
+    </div>
+
+    <main class="tools-container">
+        <div class="grid-cards" style="gap: 30px;">
+
+            <!-- Drenaje de Vida -->
+            <div class="card" style="padding: 20px; position: relative;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="card-tag haxe">Visual / Haxe</div>
+                    <button class="btn-download" data-download="downloads/Ferret's Cinematic Bars Event.zip"
+                        data-filename="Ferret's Cinematic Bars Event.zip">
+                        Descargar Archivo
+                    </button>
+                </div>
+                <h3>Cinematic Bars Event (ferret style) (Subido por: therealferret)</h3>
+                <p>Es un evento de Cinematic Bars, pero que incluye algunos elementos interesantes (como barras auxiliares).</p>
+
+                <p>Si das el crédito correspondiente, sería genial.</p>
+                <video class="video-player" controls preload="metadata">
+                    <source src="movies/videos/barrr.mp4" type="video/mp4">
+                    Tu navegador no puede reproducir este video.
+                </video>
+
+            </div>
+        </div>
+        <!-- Sección de comentarios -->
+        <section class="comments-section">
+
+            <div class="comments-header">
+                <h2>Comentarios</h2>
+                <p>Opiniones y aportes de la comunidad.</p>
+            </div>
+
+            <div class="comments-list">
+
+                <div class="comment-card">
+                    <div class="comment-info">
+                        <h3>darealfrelly</h3>
+                        <span>Visitante</span>
+                    </div>
+                    <p>Swag!!</p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-info">
+                        <h3>jefry_thousand07</h3>
+                        <span>Visitante</span>
+                    </div>
+                    <p>pretty cool.</p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-info">
+                        <h3>thechosen8ball</h3>
+                        <span>Visitante</span>
+                    </div>
+                    <p>how do i make them go away</p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-info">
+                        <h3>therealferret</h3>
+                        <span>Autor del Post</span>
+                    </div>
+                    <p>set the position value to 0</p>
+                </div>
+
+                <div class="comment-card">
+                    <div class="comment-info">
+                        <h3>thechosen8ball</h3>
+                        <span>Visitante</span>
+                    </div>
+                    <p>sweet</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="coments.js"></script>
+
+    <script src="script.js"></script>
+
+    <script src="bola.js"></script>
+
+</body>
+
+</html>
