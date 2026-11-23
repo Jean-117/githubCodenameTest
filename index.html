@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FNF Modder Hub - Recursos y Ayuda de Haxe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="movies/logo-banner.png" alt="Codename Engine Logo" class="nav-logo-img">
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="https://codename-engine.com/api-docs/" target="_blank" rel="noopener noreferrer">API ↗</a>
+                <a href="tools.html">Tools</a>
+                <a href="https://codename-engine.com/wiki/" target="_blank" rel="noopener noreferrer">Wiki ↗</a>
+                <img id="bola" src="movies/luna.png" onclick="changeImage()" style="cursor:pointer;" width="30"
+                    height="30" alt="Cambiar apariencia">
+            </nav>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <div class="hero-banner">
+        <div class="hero-content">
+            <img src="movies/codename-animated.webp" alt="Codename Engine Logo" class="hero-logo-img">
+            <p class="hero-subtitle">Friday Night Funkin' Modding and Haxe Resource</p>
+            <p class="hero-desc">La plataforma comunitaria de ayuda para creadores de mods, programadores de Codename y
+                scripts en Haxe.</p>
+            <div class="hero-buttons">
+                <a href="tools.html" class="btn-primary">Ver Herramientas</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="hub-main">
+
+        <!-- apartados -->
+        <section class="featured-section">
+            <h2 class="content-section-title">Recurso destacado</h2>
+
+            <article class="featured-card">
+                <a class="featured-image-link" href="snippets.html" aria-label="Ver guía: Sev's Character Change Event">
+                    <img class="featured-image" src="movies/changec.png"
+                        alt="Demostración del cambio de personajes durante una canción">
+                </a>
+
+                <div class="featured-content">
+                    <div class="resource-meta">
+                        <span class="resource-tag tag-gameplay">Gameplay</span>
+                        <span class="resource-type">Guía · Haxe</span>
+                    </div>
+                    <h3>Sev's Character Change Event</h3>
+                    <p>Un evento que te permite cambiar de personaje o crear personajes totalmente
+                        nuevos.....</p>
+                    <a href="snippets.html" class="resource-link">Ver guía y código →</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="resources-section">
+            <div class="section-heading">
+                <div>
+                    <h2 class="content-section-title">Otras Modificaciones</h2>
+                    <p>Mas Codigos subidos por la comunidad.</p>
+                </div>
+            </div>
+
+            <div class="resource-grid">
+
+                <article class="resource-card">
+                    <a class="resource-image-link" href="snippets-healt.html"
+                        aria-label="Ver recurso: A Simple Health Drain">
+                        <img class="resource-image" src="movies/health.png"
+                            alt="Demostración del sistema de drenaje de vida">
+                    </a>
+                    <div class="resource-card-content">
+                        <div class="resource-meta">
+                            <span class="resource-tag tag-gameplay">Gameplay</span>
+                            <span class="resource-type">Sistema · Haxe</span>
+                        </div>
+                        <h3>A Simple Health Drain</h3>
+                        <p>Experimenta la cúspide del desarrollo de videojuegos moderno con este sistema
+                            de drenaje de salud, diseñado con...</p>
+                        <a href="snippets-healt.html" class="resource-link">Ver recurso →</a>
+                    </div>
+                </article>
+
+                <article class="resource-card">
+                    <a class="resource-image-link" href="snippets-stage.html"
+                        aria-label="Ver recurso: Cambio de personajes">
+                        <img class="resource-image" src="movies/cstage.png" alt="Demostración del cambio de escenario">
+                    </a>
+                    <div class="resource-card-content">
+                        <div class="resource-meta">
+                            <span class="resource-tag tag-haxe">Haxe / Codename</span>
+                            <span class="resource-type">Tutorial</span>
+                        </div>
+                        <h3>Change Stage Event</h3>
+                        <p>a simple event i wrote to change stages mid-song, was made specifically for a
+                            mod im...</p>
+                        <a href="snippets-stage.html" class="resource-link">Ver recurso →</a>
+                    </div>
+                </article>
+
+                <article class="resource-card">
+                    <a class="resource-image-link" href="snippets-bar.html"
+                        aria-label="Ver recurso: Cinematic Bars Event (ferret style)">
+                        <img class="resource-image" src="movies/barr.png"
+                            alt="Demostración de las barras cinematográficas">
+                    </a>
+                    <div class="resource-card-content">
+                        <div class="resource-meta">
+                            <span class="resource-tag tag-xml">Visual / Haxe</span>
+                            <span class="resource-type">Guía</span>
+                        </div>
+                        <h3>Cinematic Bars Event (ferret style)</h3>
+                        <p>Es un evento de Cinematic Bars, pero que incluye...</p>
+                        <a href="snippets-bar.html" class="resource-link">Ver recurso →</a>
+                    </div>
+                </article>
+            </div>
+            </article>
+
+            </div>
+        </section>
+
+        <section class="hub-bottom-grid">
+            <div class="hub-panel">
+                <h2 class="content-section-title">Secciones del Hub</h2>
+                <div class="hub-category-list">
+                    <a href="tools.html" class="hub-category">
+                        <span class="hub-category-text">
+                            <strong>Tools</strong>
+                            <small>Utilidades y herramientas para modders.</small>
+                        </span>
+                        <span class="category-arrow">→</span>
+                    </a>
+                    <a href="https://codename-engine.com/wiki/" target="_blank" rel="noopener noreferrer"
+                        class="hub-category">
+                        <span class="hub-category-text">
+                            <strong>Wiki y tutoriales</strong>
+                            <small>Explicaciones, sistemas y ejemplos de código.</small>
+                        </span>
+                        <span class="category-arrow">→</span>
+                    </a>
+                    <a href="https://codename-engine.com/api-docs/" target="_blank" rel="noopener noreferrer"
+                        class="hub-category">
+                        <span class="hub-category-text">
+                            <strong>API Reference</strong>
+                            <small>Clases, funciones y documentación técnica.</small>
+                        </span>
+                        <span class="category-arrow">↗</span>
+                    </a>
+                </div>
+            </div>
+
+            <aside class="hub-panel hub-links-panel">
+                <span class="hub-eyebrow">RECURSOS EXTERNOS</span>
+                <h2>Enlaces oficiales</h2>
+                <p>Documentación y comunidades que pueden ayudarte durante el desarrollo.</p>
+                <ul class="official-links">
+                    <li><a href="https://codename-engine.com" target="_blank" rel="noopener noreferrer">Codename Engine
+                            <span>↗</span></a></li>
+                    <li><a href="https://haxe.org/manual/" target="_blank" rel="noopener noreferrer">Manual oficial de
+                            Haxe <span>↗</span></a></li>
+                    <li><a href="https://gamebanana.com/games/8694" target="_blank" rel="noopener noreferrer">Friday
+                            Night Funkin' en GameBanana <span>↗</span></a></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+
+        <div>
+            <h3>Contáctame</h3>
+            <p>Correo: contacto@ejemplo.com</p>
+            <p>Teléfono: +51 900 000 000</p>
+        </div>
+
+        <div>
+            <h3>Información</h3>
+            <P>Plataforma independiente creada por y para la comunidad de modding de FNF. Código abierto y libre de
+                compartir.</p>
+        </div>
+
+        <div>
+            <h3>Redes sociales</h3>
+            <p><a href="https://codename-engine.com/">Pagina Oficial</a></p>
+            <p><a href="https://www.youtube.com/@CodenameEngine">YouTube</a></p>
+        </div>
+
+    </footer>
+
+    <script src="bola.js"></script>
+
+</body>
+
+</html>
